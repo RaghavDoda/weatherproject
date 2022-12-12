@@ -1,0 +1,340 @@
+
+body
+{
+    background-color: lightgray;
+    margin-top: 0%;
+    padding: 0%;
+    top: 0%;
+}
+.top
+{
+    text-align: right;
+    background-color: lightgray;
+}
+.container
+{
+    text-align: center;
+}
+#bg
+{
+    text-align: center;
+    background-color: white;
+    border-radius: 30px;
+    width: 60%;
+    padding-left: 2%;
+    margin-left: 20%;
+    position: relative;
+}
+#bg #symbol{
+    margin-top: 5px;
+    margin-left: 2%;
+    position: absolute;
+}
+#searchbar{
+
+    margin-left: 20%;
+    margin-right: 20%;
+    position: absolute;
+}
+#about-me
+{
+    font-size: 20px;
+}
+.d-inline input{
+    width: 730px;
+}
+.card-title{
+    text-align: center;
+}
+.card-img-top{
+    justify-content: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+#profile
+{
+    margin-top: 0px;
+    margin-right: 70rem;
+    margin-left: 0px; 
+    height: 100%;
+    width: 26.5%; 
+    padding: top 0%;  
+    text-align: center; 
+    background-color: #354f60;
+    position: fixed;
+    top: 0px;
+    left: 0%;
+}
+#profile h1
+{
+    color: #ffc501;
+}
+#profile img
+{
+    margin-top: 10%;
+    height: 30%;
+    width: 60%;
+    border-radius: 60%;
+    margin-right: 2px;
+}
+
+#About_top{
+    text-align: center;
+    height: 10%;
+    background-color: #354f60;
+    padding-top: 1%;
+    top: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+#About_top h1{
+    
+    font-size: 40px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 17px;
+    padding-left: 0%;
+    height: 30px;
+    width: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline;
+    position: relative;
+    
+}
+#profile a{
+    display: inline;
+    margin-left: 0px;
+    margin-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 17px;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 30px;
+    color: white;
+}
+.ab:hover{
+    transform: scale(1.1);
+}
+.ed {
+    text-decoration: none;
+}
+.co{
+    text-decoration: none;
+}
+.Right_page2
+{
+    margin-left: 26%;
+    margin-right: -4px;
+    margin-top: 0px;
+    padding: 0px;
+    height: 60%;
+    padding-bottom: 14%;
+    background-color: purple;
+    top: 0%;
+    justify-content: center;
+}
+.Right_page2 p{
+    color: #ffc501;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.About_top p{
+    text-align: center;
+    height: 10%;
+    background-color: purple;
+    padding-top: 1%;
+    padding-left: 45%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    top: 0%;
+    text-decoration: underline;
+    color: white;
+}
+.name p
+{
+    padding-right: 200px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.fathername p
+{
+    padding-right: 79px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.collegename p
+{
+    padding-right: 198px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.branch p
+{
+    padding-right: 190px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.Rollnumber p
+{
+    padding-right: 105px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.Phonenumber p
+{
+    padding-right: 76px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.Right_page3
+{
+    margin-left: 26%;
+    margin-right: -4px;
+    margin-top: 50px;
+    height: 90%;
+    background-color: purple;
+    justify-content: end;
+    overflow-y: auto;
+    padding-bottom: 26%;
+}
+.Right_page3 p{
+    color: #ffc501;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.Contact_top p{
+    text-align: center;
+    height: 10%;
+    background-color: purple;
+    padding-top: 1%;
+    padding-left: 45%;
+    top: 0%;
+    text-decoration: underline;
+    color: white;
+}
+.Right_page3 a{
+    color: #ffc501;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.WhatsappNumber p{
+    padding-right: 0px;
+    margin-bottom: 0px;
+}
+.Facebook p{
+    padding-right: 157px;
+    margin-bottom: 0px;
+}
+
+.Instagram p{
+    padding-right: 153px;
+    margin-bottom: 0px;
+}
+
+.GitHub p{
+    padding-right: 190px;
+    margin-bottom: 0px;
+}
+.contact_icon a svg
+{
+    height: 90px;
+    margin-top: 20%;
+    width: 60%;
+    transition: 300ms;
+}
+.contact_icon a svg:hover{
+    transform: scale(1.1);
+}
+#tele{
+    color: blue;
+    background-color: white;
+    border-radius: 78px;
+    padding-top: 0px;
+    height: 15%;
+    width: 15%;
+}
+#whats{
+    background-color: rgb(88, 227, 88);
+    border-radius: 78px;
+    padding-top: 0px;
+    height: 15%;
+    width: 15%;
+}
+#insta{
+    background-color: rgb(150, 48, 119);
+    border-radius: 18px;
+    padding-top: 0px;
+    height: 15%;
+    width: 15%;
+
+}
+#phone{
+    background-color: rgb(71, 162, 71);
+    border-radius: 25px;
+    padding-top: 0px;
+    height: 15%;
+    width: 15%;
+}
+.footer{
+    text-align: center;
+    background-color: #524950;
+    color: yellow;
+    height: 90px;
+    font-size: 40px;
+    padding-top: 0.5%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.Right_page4
+{
+    margin-left: 26%;
+    margin-right: -4px;
+    margin-top: 15px;
+    height: 90%;
+    background-color: purple;
+    justify-content: end;
+    overflow-y: auto;
+    padding-bottom: 10%;
+}
+.Right_page4 p{
+    color: #ffc501;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#Education_top p
+{
+    text-align: center;
+    height: 10%;
+    background-color: purple;
+    padding-top: 1%;
+    padding-left: 45%;
+    top: 0%;
+    text-decoration: underline;
+    color: white;
+}
+#class_top
+{
+    text-align: start;
+    padding-left: 4%;
+}
+#Class_top p {
+    text-align: start;
+    height: 10%;
+    background-color: purple;
+    padding-top: 1%;
+    padding-left: 0.5%;
+    top: 0%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-decoration: underline ;
+    font-weight: bold;
+    color: white;
+}

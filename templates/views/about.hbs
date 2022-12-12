@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlinks}}
+    <title>WeatherApp</title>
+</head>
+<body>
+    {{>navbar}}
+    <!-- main header --> 
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row" >
+                    <!-- left side div -->
+                    <div class="col-md-6 col-12 main_header_right align-items-center">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <figure>
+                                <img src="images/about.png" alt="Raghav" class="img-fluid">
+                            </figure>
+                        </div>
+                    </div>
+                    <!-- right side div -->
+                    <div class="col-md-6 col-12 main_header_left">
+                        <p>Welcome to Weather App</p>
+                        <h1>I Am A<span class="text_clr"> MERN Stack Developer</span> And A College Student</h1>
+                        <a href="/aboutme.html"><button>About Me</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer code -->
+    {{>footer}}
+</body>
+</html>
